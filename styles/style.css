@@ -56,6 +56,11 @@ html{
     width: auto;
 }
 
+.profile-pic-circle{
+    height:75px;
+    border-radius: 50%;
+}
+
 #about-me{
     grid-column: 2/ 5;
 }
@@ -78,4 +83,10 @@ html{
 
 p{
     font-size: 18px;
+}
+
+/* contact page */
+
+.contact {
+    padding-top: 75px;
 }
