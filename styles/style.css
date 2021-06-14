@@ -4,6 +4,78 @@ html{
     margin: 0;
 }
 
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 10px;
+    grid-auto-rows: repeat(10, 1fr);
+} */
 
+.header {
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
 
+}
 
+.name {
+    color: white;
+    float: left;
+}
+
+.naviagation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.naviagation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: white;
+}
+
+.naviagation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.grid {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.profile-pic{
+    height: 300px;
+    width: auto;
+}
+
+#about-me{
+    grid-column: 2/ 5;
+}
+
+#projects{
+    grid-column: 2/ 5;
+}
+
+#skills{
+    grid-column: 2/ 6;
+}
+
+.logo {
+    height: 50px
+}
+
+#css{
+    padding-left:10px
+}
